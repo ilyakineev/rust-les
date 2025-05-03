@@ -21,7 +21,7 @@ Rust — это современный, безопасный и производ
 - **Инструменты разработки** (rustc, cargo).  
 - **GameDev** (движки Bevy, Amethyst).  
 
-## **4. Компиляция**  
+## **4. [Компиляция](https://doc.rust-lang.ru/book/ch01-02-hello-world.html)**  
 - **AOT-компиляция** (ahead-of-time) — код компилируется в бинарник.  
 - **Статическая типизация** — проверки на этапе компиляции.  
 - **Нулевая стоимость абстракций** — оптимизации как в C++.  
@@ -38,10 +38,10 @@ rustc main.rs  # создаёт исполняемый файл
 ./main        # запуск
 ```
 
-## **5. Установка**  
+## **5. [Установка](https://doc.rust-lang.ru/book/ch01-01-installation.html)**  
 1. **Официальный установщик:**  
    ```sh
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   $ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
    ```  
 2. **Проверка:**  
    ```sh
@@ -53,7 +53,7 @@ rustc main.rs  # создаёт исполняемый файл
    rustup update
    ```  
 
-## **6. Первый проект**  
+## **6. [Первый проект](https://doc.rust-lang.ru/book/ch01-03-hello-cargo.html)**  
 Создадим проект через **Cargo** (менеджер пакетов Rust):  
 ```sh
 cargo new hello_rust
