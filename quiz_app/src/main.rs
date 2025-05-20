@@ -1,44 +1,21 @@
-use std::fs;
-use std::io;
-use serde::Deserialize;
+mod quiz;
+mod io_utils;
 
-#[derive(Debug, Deserialize)]
-struct Question {
-    text: String,
-    options: Vec<String>,
-    correct: usize,
-}
+use std::fs;
 
 fn main() {
-    // Читаем JSON файл
-    let data = fs::read_to_string("questions.json")
+
+    const FILE_NAME: &str = "questions.json";
+
+    println!("Текущая директория: {:?}", std::env::current_dir().unwrap());
+
+    let data = fs::read_to_string(FILE_NAME)
         .expect("Не удалось прочитать файл questions.json");
 
-    let questions: Vec<Question> = serde_json::from_str(&data)
+    let questions: Vec<quiz::Question> = serde_json::from_str(&data)
         .expect("Не удалось распарсить JSON");
 
-    let mut score = 0;
+    let mut quiz = quiz::Quiz::new(questions);
 
-    for (i, q) in questions.iter().enumerate() {
-        println!("\nВопрос {}: {}", i + 1, q.text);
-        for (j, opt) in q.options.iter().enumerate() {
-            println!("  {}. {}", j + 1, opt);
-        }
-
-        println!("Ваш ответ: ");
-        let mut input = String::new();
-        io::stdin()
-            .read_line(&mut input)
-            .expect("Не удалось прочитать строку");
-        let answer = input.trim().parse::<usize>().unwrap_or(0);
-
-        if answer == q.correct {
-            println!("✅ Правильно!");
-            score += 1;
-        } else {
-            println!("❌ Неправильно! Правильный ответ: {}", q.correct);
-        }
-    }
-
-    println!("\nВы ответили правильно на {}/{} вопросов.", score, questions.len());
+    quiz.run();
 }
