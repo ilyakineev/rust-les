@@ -29,7 +29,7 @@ Rust — современный язык программирования, ко�
 Или в терминале (Linux/macOS):
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
 Для Windows — скачай и запусти установщик с сайта.
@@ -135,3 +135,9 @@ cargo fmt
 ```
 
 * Для проверки ошибок и рекомендаций — `cargo clippy` (может подсказать улучшения).
+
+### Ресурсы 
+
+1) [Чем занимаются Rust разработчики?](https://www.youtube.com/live/hJjpLGX_CqI)
+2) [Главные особенности разработки приложения на Rust.](https://www.youtube.com/watch?v=acwlws7nRsc&list=PLfnFOImnyWRVKA2fvCxl7lg2XMedm2gAh&index=6)
+3) [За что разработчики любят Rust?](https://www.youtube.com/watch?v=5PCB0b6B1s0&list=PLfnFOImnyWRVKA2fvCxl7lg2XMedm2gAh&index=8)
