@@ -86,8 +86,8 @@
 **Рекомендуемые источники:**
 
 * Статья в The Book: *The Stack and the Heap*
-  [https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
+  [https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html](https://doc.rust-lang.ru/book/ch04-01-what-is-ownership.html)
 * Введение в архитектуру компьютера:
-  [https://en.wikipedia.org/wiki/Computer\_architecture](https://en.wikipedia.org/wiki/Computer_architecture)
+  [https://en.wikipedia.org/wiki/Computer\_architecture](https://en.wikipedia.ru/wiki/Computer_architecture)
 * Rust и многопоточность:
-  [https://doc.rust-lang.org/book/ch16-00-concurrency.html](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
+  [https://doc.rust-lang.org/book/ch16-00-concurrency.html](https://doc.rust-lang.ru/book/ch16-00-concurrency.html)

@@ -16,7 +16,7 @@ let a: i32 = -42;
 let b: u8 = 255;
 ```
 
-[Официальная документация по числам](https://doc.rust-lang.org/book/ch03-02-data-types.html#integer-types)
+[Официальная документация по числам](https://doc.rust-lang.ru/book/ch03-02-data-types.html#integer-types)
 
 #### 1.2. Числа с плавающей точкой
 
@@ -52,7 +52,7 @@ let mut string = String::from("Hello");
 string.push_str(", world!");
 ```
 
-[Официальная документация по строкам](https://doc.rust-lang.org/book/ch08-02-strings.html)
+[Официальная документация по строкам](https://doc.rust-lang.ru/book/ch08-02-strings.html)
 
 ---
 
@@ -66,7 +66,7 @@ let mut y = 10;  // изменяемая
 y += 5;
 ```
 
-[Подробнее о переменных](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+[Подробнее о переменных](https://doc.rust-lang.ru/book/ch03-01-variables-and-mutability.html)
 
 #### 2.2. Явное указание типа
 
@@ -139,7 +139,7 @@ fn greet() {
 }
 ```
 
-[Официальная документация по функциям](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
+[Официальная документация по функциям](https://doc.rust-lang.ru/book/ch03-03-how-functions-work.html)
 
 ---
 
@@ -165,16 +165,16 @@ static mut COUNTER: u32 = 0;
 
 ### Рекомендованные источники
 
-1. [**The Rust Programming Language ("The Book")**](https://doc.rust-lang.org/book/)
+1. [The Rust Programming Language ("The Book")](https://doc.rust-lang.ru/book/)
 
-   * Глава 3.1: [Переменные и изменяемость](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
-   * Глава 3.2: [Типы данных](https://doc.rust-lang.org/book/ch03-02-data-types.html)
-   * Глава 3.3: [Функции](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
-   * Глава 8.2: [String vs \&str](https://doc.rust-lang.org/book/ch08-02-strings.html)
+   * Глава 3.1: [Переменные и изменяемость](https://doc.rust-lang.ru/book/ch03-01-variables-and-mutability.html)
+   * Глава 3.2: [Типы данных](https://doc.rust-lang.ru/book/ch03-02-data-types.html)
+   * Глава 3.3: [Функции](https://doc.rust-lang.ru/book/ch03-03-how-functions-work.html)
+   * Глава 8.2: [String vs \&str](https://doc.rust-lang.ru/book/ch08-02-strings.html)
 
 2. **Rust by Example**
-   [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
+   [https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.ru/rust-by-example/)
 
-   * [Variables](https://doc.rust-lang.org/rust-by-example/variable.html)
-   * [Functions](https://doc.rust-lang.org/rust-by-example/fn.html)
-   * [Primitives](https://doc.rust-lang.org/rust-by-example/primitives.html)
+   * [Variables](https://doc.rust-lang.ru/rust-by-example/variable.html)
+   * [Functions](https://doc.rust-lang.ru/rust-by-example/fn.html)
+   * [Primitives](https://doc.rust-lang.ru/rust-by-example/primitives.html)

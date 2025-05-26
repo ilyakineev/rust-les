@@ -169,7 +169,7 @@ fn main() {
 
 🚀 **Ресурсы:**
 
-* Rust Book — [Глава «Structs»](https://doc.rust-lang.org/book/ch05-00-structs.html)
-* Rust Book — [Глава «Enums»](https://doc.rust-lang.org/book/ch06-00-enums.html)
-* Rust Book — [Глава «Generics»](https://doc.rust-lang.org/book/ch10-00-generics.html)
+* Rust Book — [Глава «Structs»](https://doc.rust-lang.ru/book/ch05-00-structs.html)
+* Rust Book — [Глава «Enums»](https://doc.rust-lang.ru/book/ch06-00-enums.html)
+* Rust Book — [Глава «Generics»](https://doc.rust-lang.ru/book/ch10-00-generics.html)
 * YouTube: Гоша Дударь — [Изучение Rust (видео)](https://www.youtube.com/watch?v=Z8IhYLX6P04&list=PL0lO_mIqDDFU_3UaxCF6p98ELxXpAyHpW&index=11)

@@ -80,9 +80,9 @@ cargo build --release  // Сборка релизной версии
 **5. Полезные ресурсы**
 
 * [Официальный сайт](https://www.rust-lang.org)
-* [Книга "The Rust Programming Language"](https://doc.rust-lang.org/book/)
-* [Онлайн-песочница для запуска кода](https://play.rust-lang.org)
-* [Документация по стандартной библиотеке](https://doc.rust-lang.org/std/)
+* [Книга "The Rust Programming Language"](https://doc.rust-lang.ru/book/)
+* [Онлайн-песочница для запуска кода](https://play.rust-lang.ru)
+* [Документация по стандартной библиотеке](https://doc.rust-lang.ru/std/)
 * [Чем занимаются Rust разработчики?](https://www.youtube.com/live/hJjpLGX_CqI)
 * [Главные особенности разработки приложения на Rust.](https://www.youtube.com/watch?v=acwlws7nRsc&list=PLfnFOImnyWRVKA2fvCxl7lg2XMedm2gAh&index=6)
 * [За что разработчики любят Rust?](https://www.youtube.com/watch?v=5PCB0b6B1s0&list=PLfnFOImnyWRVKA2fvCxl7lg2XMedm2gAh&index=8)
