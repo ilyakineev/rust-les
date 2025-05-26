@@ -165,8 +165,7 @@ static mut COUNTER: u32 = 0;
 
 ### Рекомендованные источники
 
-1. **The Rust Programming Language ("The Book")**
-   [https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/)
+1. [**The Rust Programming Language ("The Book")**](https://doc.rust-lang.org/book/)
 
    * Глава 3.1: [Переменные и изменяемость](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
    * Глава 3.2: [Типы данных](https://doc.rust-lang.org/book/ch03-02-data-types.html)
